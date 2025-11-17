@@ -65,7 +65,7 @@ public class JobRepo {
     }
 
     public String deleteJob(int jobId){
-        for(JobPost j : jobs){
+        for(JobPost j :  jobs){
             if(j.getPostId() == jobId) {
                 jobs.remove(j);
             }
